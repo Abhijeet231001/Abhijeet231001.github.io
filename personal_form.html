@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Info</title>
+</head>
+<body>
+    <div class="container">
+    <h1><b>PERSONAL INFO</b></h1>
+    <hr>
+    <h3>Required Fields Are Followed By *</h3>
+    <form>
+    <table cellspacing="10px">
+    <tr>
+        <td>
+    <label for="name">Name*:</label>
+    </td>
+    <td>
+        <input id="name" type="text" required>
+        </td>
+        </tr>
+      <tr>
+          <td>
+        <label for="gender">Gender:*</label>
+        </td>
+        <td>     
+        <input type="radio" name="gender" required>Male  <input type="radio" name="gender" required>Female
+        </td>
+       </tr> 
+    <tr>
+        <td>
+            <label for="age">Age:*</label>
+        </td>
+        <td>
+        <input type="number" name="number" required></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="number">Contact Number:*</label>
+            </td>
+            <td>   
+            <input type="number" name="number" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="date">Date Of Birth:*</label>
+            </td>
+            <td>         
+            <input type="date" name="date" required>
+        </td>
+        </tr>
+    <tr>
+        <td>
+            <label for="address">Address:*</label>
+            </td>
+        <td>
+           <input type="address" name="address" required></td>
+        </tr>
+    <tr>
+        <td>
+            <label for="number">Pincode*:</label>
+            </td>
+                <td>    
+                <input type="number" name="pincode" id="pincode" required>
+            </td>
+        </tr>
+    <tr>
+        <td>
+            <label for="email">Email:*</label>
+            </td>
+          <td>  
+    <input type="email" name="email" id="pincode" required>
+   </td>
+</tr>
+    </table>
+    <button>Submit</button>
+    </form>
+</div>
+</body>
+</html>
